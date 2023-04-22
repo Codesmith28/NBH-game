@@ -37,7 +37,7 @@ function MyScene() {
 			// Do something with the loaded scene
 			// create box
 			// add orbit controls
-			const light = new THREE.DirectionalLight(0xffffff, 2.5);
+			const light = new THREE.DirectionalLight(0xffffff, 3.5);
 			light.position.set(2, 1, 2); // Set the light position
 			scene.add(light);
 
